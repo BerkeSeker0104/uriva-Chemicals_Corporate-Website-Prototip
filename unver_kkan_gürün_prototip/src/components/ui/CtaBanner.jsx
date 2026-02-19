@@ -11,7 +11,7 @@ export default function CtaBanner() {
 
   return (
     <section ref={ref} className="relative py-20 px-6 overflow-hidden" style={{ background: 'linear-gradient(135deg, #2563eb 0%, #1e40af 50%, #1e3a8a 100%)' }}>
-      <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1449130320316-6ee5ffdb7f21?w=1920&q=40)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
+      <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'url(https://images.unsplash.com/photo-1761312834150-4beefff097a7?w=1920&q=40)', backgroundSize: 'cover', backgroundPosition: 'center' }} />
       <div className="absolute inset-0 opacity-[0.05]" style={{ backgroundImage: 'linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
       <div className={`max-w-4xl mx-auto text-center relative z-10 transition-all duration-700 ${inView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">{t(UI.cta.title)}</h2>

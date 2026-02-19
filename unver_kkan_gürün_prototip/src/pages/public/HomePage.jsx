@@ -31,7 +31,7 @@ export default function HomePage() {
 function Hero({ t }) {
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden" style={{ background: 'linear-gradient(135deg, #0f172a 0%, #1e3a5f 35%, #1a2744 65%, #0f172a 100%)' }}>
-      <img src="https://images.unsplash.com/photo-1611117775350-ac3950990985?w=1920&q=80" alt="" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+      <img src="https://images.unsplash.com/photo-1594611372970-4e9201566205?w=1920&q=80" alt="" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
       <div className="absolute inset-0 bg-gradient-to-r from-[#0f172a]/90 via-[#0f172a]/75 to-[#0f172a]/50" />
       <div className="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-transparent to-[#0f172a]/30" />
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full grid grid-cols-1 lg:grid-cols-2 gap-12 items-center py-32">
@@ -116,7 +116,7 @@ function Kurumsal({ t }) {
           </div>
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80" alt="Puriva lab" className="w-full h-80 lg:h-96 object-cover" loading="lazy" />
+              <img src="https://images.unsplash.com/photo-1608037222022-62649819f8aa?w=800&q=80" alt="Puriva lab" className="w-full h-80 lg:h-96 object-cover" loading="lazy" />
               <div className="absolute bottom-6 left-6 bg-white rounded-xl px-5 py-4 shadow-xl">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center"><Award size={20} className="text-white" /></div>

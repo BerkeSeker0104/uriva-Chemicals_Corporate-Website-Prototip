@@ -58,7 +58,7 @@ function Story({ t }) {
           </div>
           <div className="relative">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=800&q=80" alt="Puriva lab" className="w-full h-80 lg:h-[420px] object-cover" loading="lazy" />
+              <img src="https://images.unsplash.com/photo-1608037222022-62649819f8aa?w=800&q=80" alt="Puriva lab" className="w-full h-80 lg:h-[420px] object-cover" loading="lazy" />
               <div className="absolute bottom-6 left-6 bg-white rounded-xl px-5 py-4 shadow-xl">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center"><Award size={20} className="text-white" /></div>
